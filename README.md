@@ -1,50 +1,48 @@
-# Welcome to your Expo app 👋
+# Gerenciador de Participantes de Eventos
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Bem-vindo ao meu projeto de gerenciamento de listas de participantes para eventos! Este aplicativo foi desenvolvido utilizando **React Native** e **Expo** como parte de um curso sobre os fundamentos do desenvolvimento mobile. O objetivo principal do app é fornecer uma maneira fácil e rápida de adicionar e remover participantes de eventos.
 
-## Get started
+## Funcionalidades
 
-1. Install dependencies
+- **Adição Rápida de Participantes:** Adicione pessoas à lista do evento com apenas alguns toques.
+- **Remoção Simples:** Remova facilmente participantes da lista caso não possam comparecer.
+- **Interface Intuitiva:** Design minimalista e focado em oferecer uma experiência de usuário agradável e fluida.
 
-   ```bash
-   npm install
-   ```
+## Imagens
 
-2. Start the app
+Veja o aplicativo em ação:
 
-   ```bash
-    npx expo start
-   ```
+![Imagem do WhatsApp de 2024-08-29 à(s) 15 15 01_61d98c11](https://github.com/user-attachments/assets/55e55dc3-4513-4a12-9ca2-a5d138584705) 
 
-In the output, you'll find options to open the app in a
+## Instalação
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+Para rodar este projeto localmente, siga os passos abaixo:
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+1. Clone o repositório:
 
-## Get a fresh project
+   ``` git clone https://github.com/ViniciusMendesp/ImHere-react-native.git ```
 
-When you're ready, run:
+2. Navegue até o diretório do projeto:
 
-```bash
-npm run reset-project
-```
+   ``` cd ImHere-react-native ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+3. Instale as dependências:
 
-## Learn more
+   ``` npm install ```
 
-To learn more about developing your project with Expo, look at the following resources:
+4. Inicie o servidor de desenvolvimento:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+   ``` npm run start ```
 
-## Join the community
+## Uso
 
-Join our community of developers creating universal apps.
+Após iniciar o servidor de desenvolvimento, você pode abrir o aplicativo em um emulador ou dispositivo físico com o Expo Go. Siga as instruções fornecidas pelo Expo para escanear o QR code e visualizar o app.
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Contato
+
+Para quaisquer dúvidas ou sugestões, entre em contato comigo:
+
+- [LinkedIn](https://www.linkedin.com/in/vinicius-mendes-pimentel)
+- [E-mail](mailto:vmp_tech@outlook.com)
+
+Obrigado por conferir meu projeto!
