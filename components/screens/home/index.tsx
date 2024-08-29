@@ -28,7 +28,13 @@ export function Home() {
 
   function handleParticipantRemove(name: string) {
     Alert.alert("Remover", `Remover o participante ${name}?`, [
-      { text: "Sim", onPress: () => Alert.alert("Deletado!") },
+      {
+        text: "Sim",
+        onPress: () =>
+          setParticipants((prevState) =>
+            prevState.filter((participant) => participant !== name)
+          ),
+      },
       { text: "Não", style: "cancel" },
     ]);
   }
@@ -36,7 +42,7 @@ export function Home() {
   return (
     <View style={styles.container}>
       <Text style={styles.eventName}>Nome do evento</Text>
-      <Text style={styles.eventDate}>Sexta, 4 de Novembro de 2024</Text>
+      <Text style={styles.eventDate}>Quinta, 29 de Agosto de 2024</Text>
       <View style={styles.form}>
         <TextInput
           style={styles.input}
